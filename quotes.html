@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>+H= QUOTE</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="header">
+        <div class="logo">
+          <img src="media/logo.jpg" alt="" />
+        </div>
+        <div class="item">
+          <ul>
+            <li>
+              <a href="index.html"><div class="unselected">HOME</div></a>
+            </li>
+            <li class="divline"></li>
+            <li>
+              <a><div class="selected">QUOTES</div></a>
+            </li>
+            <li class="divline"></li>
+            <li>
+              <a href=""><div class="unselected">ABOUT</div></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="quoteContain">
+        <div class="container">
+          <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote">Check Your Connection</span>
+            <i class="fas fa-quote-right"></i>
+          </h1>
+
+          <p class="author" id="author"></p>
+    
+        
+         <input type="submit" class="next" onclick="getNewQuote()" value="New quote">
+    
+        
+
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footimg"></div>
+      <div class="foot"></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
