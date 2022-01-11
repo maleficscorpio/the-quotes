@@ -13,8 +13,8 @@ This application fetches a new random quote from an API, upon the click of a but
 
 ## Some Snaps from the app
 <p>
-<img src="project_snap/index.gif" width="500">
-<img src="project_snap/quotes.gif" width="500">
+<img src="media/index.gif" width="500">
+<img src="media/quotes.gif" width="500">
 </p>
 
 
